@@ -22,10 +22,11 @@ body {
 }
 
 .card {
-  width: 520px;
-  height: 320px;
+  position: relative;
+  width: 580px;
+  height: 350px;
   background-color: hsl(217, 19%, 24%);
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
 }
 
@@ -39,5 +40,27 @@ body {
 
 .card > p {
   font-size: 28px;
-  margin: 30px;
+  margin: 30px 60px;
+  margin-bottom: 50px;
+}
+
+.card > .divider {
+  width: calc(580 - 2 * 30px);
+}
+
+.die-container {
+  display: flex;
+  justify-content: center;
+}
+
+.die {
+  width: 60px;
+  height: 60px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -30px;
 }
