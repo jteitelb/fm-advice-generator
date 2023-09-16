@@ -1,0 +1,43 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: hsl(193, 38%, 86%);
+  background-color: hsl(218, 23%, 16%);
+  width: 100%;
+  min-height: 100vh;
+}
+.card-container {
+  width: 100%;
+  min-height: 95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 520px;
+  height: 320px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 5px;
+}
+
+.card > p {
+  font-size: 28px;
+  margin: 30px;
+}
