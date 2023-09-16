@@ -63,4 +63,9 @@ body {
   align-items: center;
   position: absolute;
   bottom: -30px;
+  cursor: pointer;
+}
+
+.die:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
 }
