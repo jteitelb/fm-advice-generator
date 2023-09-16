@@ -39,9 +39,11 @@ body {
 }
 
 .card > p {
+  padding: 20px;
+  height: 120px;
   font-size: 28px;
   margin: 30px 60px;
-  margin-bottom: 50px;
+  overflow-y: auto;
 }
 
 .card > .divider {
@@ -68,4 +70,17 @@ body {
 
 .die:hover {
   box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(217, 19%, 19%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(193, 38%, 86%);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(150, 100%, 66%);
 }
